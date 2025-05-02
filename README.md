@@ -13,6 +13,6 @@
 
 ## 🔧 Конфигурация
 
-tsconfig.json: Настройки TypeScript
-.eslintrc.\*: Правила линтинга для TypeScript и React
-vite.config.ts: Конфигурация Vite с плагином React
+- **tsconfig.json**: Настройки TypeScript
+- **eslint.config.js**: Правила линтинга для TypeScript и React
+- **vite.config.ts**: Конфигурация Vite с плагином React
