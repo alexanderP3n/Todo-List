@@ -46,8 +46,8 @@ function App() {
     setEditTodoId(null);
   };
   return (
-    <Box sx={{ minWidth: '700px', display: 'flex', flexDirection: 'column', rowGap: '30px' }}>
-      <Header />
+    <Box sx={{ maxWidth: '700px', display: 'flex', flexDirection: 'column', rowGap: '30px', width: '100%', margin: '0 auto' }}>
+      <Header todoCount={todoList.length} />
       <Panel onAddTodo={onAddTodo} />
       <TodoList editTodoId={editTodoId} onCheckedTodo={onCheckedTodo} todoList={todoList} onDeliteTodo={onDeliteTodo} onEdit={onEdit} onChangeTodo={onChangeTodo} />
     </Box>

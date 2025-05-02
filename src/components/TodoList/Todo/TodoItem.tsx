@@ -24,7 +24,7 @@ export const TodoItem: React.FC<TodoItemProps> = ({ todo, onDeliteTodo, onChecke
           <EditIcon />
         </IconButton>
         <IconButton onClick={() => onDeliteTodo(todo.id)} aria-label="delete" size="large" color="error">
-          <DeleteIcon />
+          <DeleteIcon sx={{ outline: 'none' }} />
         </IconButton>
       </Box>
     </Paper>
